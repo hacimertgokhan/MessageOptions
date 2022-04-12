@@ -1,0 +1,11 @@
+name: MessageOptions
+version: 'stable'
+main: eu.mixeration.messageoptions.mixeration
+prefix: MessageOptions
+load: STARTUP
+authors: [Mixeration]
+commands:
+    MessageOptions:
+        aliases: Mo
+        usage: /MessageOptions
+        permission: messageoptions.admin

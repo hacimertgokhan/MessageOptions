@@ -1,0 +1,7 @@
+eu\mixeration\messageoptions\events\join.class
+eu\mixeration\messageoptions\module\message.class
+eu\mixeration\messageoptions\events\quit.class
+eu\mixeration\messageoptions\commands\admin.class
+eu\mixeration\messageoptions\module\file.class
+eu\mixeration\messageoptions\module\_user.class
+eu\mixeration\messageoptions\mixeration.class

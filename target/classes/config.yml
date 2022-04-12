@@ -1,0 +1,63 @@
+messages:
+    no-console: 'Only in game !'
+    no-permission: '&c&lHey ! &7you don`t have a enough permission to do this !'
+    join-motd:
+    - ''
+    - '&7Hello &a%name &7!'
+    - '  &7You locale is %locale'
+    - '  &7Your displayname is %displayname'
+    - ''
+
+message-options:
+    locale: en # en, tr
+    isEnable:
+        join: true
+        quit: true
+        motd: true
+    messageType: # perPlayer, usePermission, oversizedText, oneLineText
+        join: oneLineText
+        quit: oneLineText
+    join:
+        perPlayer:
+            thisJoinMessageForMixeration:
+                name: 'Mixeration'
+                message:
+                - ''
+                - '&c&lMixeration &fJoin the game !'
+                - ''
+        usePermission:
+            example:
+                permission: example.vipplayer
+                message:
+                - ''
+                - '&6&lVIP &e%name &fJoin the game !'
+                - ''
+        oneLineText:
+            message: '&e%name &7join the game !'
+        oversizedText:
+            message:
+            - ''
+            - '&e%name &fJoin the game !'
+            - ''
+    quit:
+        perPlayer:
+            thisQuitMessageForMixeration:
+                name: 'Mixeration'
+                message:
+                - ''
+                - '&c&lMixeration &7quit the game !'
+                - ''
+        usePermission:
+            example:
+                permission: example.quitmessage
+                message:
+                - ''
+                - '&e%name &7quit the game !'
+                - ''
+        oneLineText:
+            message: '&e%name &7quit the game !'
+        oversizedText:
+            message:
+            - ''
+            - '&e%name &7quit the game !'
+            - ''
